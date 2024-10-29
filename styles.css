@@ -148,7 +148,7 @@ h6 {
 input {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(197, 197, 197);
+  border-bottom: 1.5px solid rgb(197, 197, 197);
   padding: 10px 8px;
   margin: 5px 0px;
   font-family: 'Inter', sans-serif;
@@ -162,7 +162,7 @@ input:focus {
 }
 
 input:user-invalid {
-  border-bottom: 1px solid rgb(255, 78, 78);
+  border-bottom: 1.5px solid rgb(187, 78, 78);
 }
 
 button {
@@ -171,9 +171,21 @@ button {
   border: none;
   border-radius: 5px;
   font-family: inter;
-  margin-top: 25px;
+  margin-top: 15px;
   padding: 10px 0px;
   font-size: 0.9rem;
   font-weight: 600;
   width: 100%;
+}
+
+#login {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  margin-top: 15px;
+  color: rgb(96, 96, 96);
+}
+
+#login > a {
+  color: rgb(99, 88, 76);
+  font-weight: 500;
 }
