@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: 	#fbf8f2;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.page-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.side {
+  height: 100vh;
+}
+
+#main-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 5rem;
+  font-stretch: expanded;
+  white-space: nowrap;
+  color: rgb(255, 246, 229);
+}
+
+.image-side {
+  width: 45vw;
+  padding: 30px 0px 30px 30px;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  max-height: 900px;
+  background-image: url(interior.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 5%;
+}
+
+.inter-paragraph {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.form-side {
+  width: 60vw;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.form-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.inter-header {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: rgb(50, 50, 50);
+  margin-bottom: 25px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.inter-label {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  color: rgb(78, 78, 78);
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  padding: 10px 8px;
+  margin: 5px 0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.75px rgb(133, 116, 98);
+  border-radius: 5px;
+}
+
+input:user-invalid {
+  border-bottom: 1px solid rgb(255, 78, 78);
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: inter;
+  margin-top: 25px;
+  padding: 10px 0px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 100%;
+}
